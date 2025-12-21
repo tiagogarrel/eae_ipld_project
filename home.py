@@ -54,7 +54,7 @@ def home_page():
     st.write("""
     - 🧑‍💻 Production Engineer pursuing a Master’s in Big Data & Analytics in Barcelona, currently working as a Competition Insights Intern at eDreams.
 
-    - 🛩️ prev: Background in data analytics, operations, and optimization, with a strong interest in AI-driven products and scalable data solutions.
+    - 🛩️ Background in data analytics, operations, and optimization, with a strong interest in AI-driven products and scalable data solutions.
 
     - ❤️ Travel 
 
