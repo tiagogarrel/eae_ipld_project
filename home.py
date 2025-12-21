@@ -4,7 +4,7 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-    page_title="<Your Name> Portfolio",
+    page_title="Tiago Garrel Portfolio",
     page_icon="📊",
 )
 
@@ -16,12 +16,12 @@ def home_page():
         st.header("Introduction to Programming Languages for Data")
         st.write("###")
         st.write("***Final Project - Dec 2025***")
-        st.write("**Author:** <your name> ")
+        st.write("**Author:** Tiago Garrel ")
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
     # ----- Top title -----
-    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Python</h1></div>""")  # TODO: Add your name
+    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Tiago Garrel""")  # TODO: Add your name
 
 
     # ----- Profile image file -----
@@ -40,7 +40,7 @@ def home_page():
 
 
     # ----- Personal title or short description -----
-    current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+    current_role = "Production Engineer pursuing a Master’s in Big Data & Analytics in Barcelona, currently working as a Competition Insights Intern at eDreams. Background in data analytics, operations, and optimization, with a strong interest in AI-driven products and scalable data solutions."   # TODO: Change this
 
     st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
 
@@ -52,17 +52,15 @@ def home_page():
 
     # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
     st.write("""
-    - 🧑‍💻 I am a <Current Role and/or Studies> that you are doing
+    - 🧑‍💻 Production Engineer pursuing a Master’s in Big Data & Analytics in Barcelona, currently working as a Competition Insights Intern at eDreams.
 
-    - 🛩️ prev: <Previous Experience, Background or Studies>
+    - 🛩️ prev: Background in data analytics, operations, and optimization, with a strong interest in AI-driven products and scalable data solutions.
 
-    - ❤️ <Your Passion and/or Interests>
+    - ❤️ Travel 
 
-    - 🤖 <Your Personal Projects>
+    - 🏂 Padel
 
-    - 🏂 <Your Hobbies>
-
-    - 📫 How to reach me: <Your Email>
+    - 📫 How to reach me: tiagogarrel@hotmail.com
 
     - 🏠 Barcelona
     """)
